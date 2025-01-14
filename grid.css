@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    background: linear-gradient(to bottom, #b1eded,#a3c6ea, white, pink);
+}
+
+.bilder{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.text{
+    display: none;
+}
+
+.plane1:hover + .text {
+    display: block;
+  }
+
+.plane2:hover + .text {
+  display: block;
+}
+
+.plane3:hover + .text {
+    display: block;
+  }
+
+.forest1:hover + .text {
+  display: block;
+}
+
+.forest2:hover + .text {
+    display: block;
+  }
+
+.forest3:hover + .text {
+  display: block;
+}
+
+.snow1:hover + .text {
+    display: block;
+  }
+
+.snow2:hover + .text {
+  display: block;
+}
+.snow3:hover + .text {
+    display: block;
+  }
+
+.cherry1:hover + .text {
+  display: block;
+}
+
+.cherry2:hover + .text {
+    display: block;
+  }
+
+.cherry3:hover + .text {
+  display: block;
+}
